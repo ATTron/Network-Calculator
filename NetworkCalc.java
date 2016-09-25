@@ -110,7 +110,7 @@ public class NetworkCalc {
 			System.out.println((int)(Math.round(answer)) + " microsecond delay.");
 			break;
 		default: 
-			System.out.println("Answer in Microseconds");
+			System.out.println("Prop Delay: " + propDelay + "\n Transmit Delay : " + xmitDelay);
 			break;
 		}// switch()
 	}// DelayCalc()
